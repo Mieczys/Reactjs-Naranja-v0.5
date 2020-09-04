@@ -1,0 +1,206 @@
+.App {
+	text-align: left;
+	max-width:100%; 
+}
+
+.App-logo {
+	margin-top: 45px;
+	margin-bottom: 25px;
+	margin-left: 25px;
+	height: 10vmin;
+	pointer-events: none;
+}
+.logo1 {
+	margin-top: 45px;
+	margin-bottom: 25px;
+	margin-left: 25px;
+	height: 40vmin;
+	pointer-events: none;
+}
+html{
+    scroll-behavior: smooth; /* en caso de que genere problemas comentarlo */
+}
+/*de acá para abajo*/
+.App-header {
+	background-color: rgb(243, 125, 14);
+	min-height: 20vh;
+	display: grid;
+	grid-template-columns: 0;
+	grid-column-gap: 0 auto;
+	align-items: center;
+	font-size: calc(8px + 1vmin);
+	color: rgb(255, 255, 255);
+	/*margin: -1rem;*/
+	border-radius: 1em;
+	max-width:100%; 
+}
+.App-footer {
+	position: fixed;
+	left: 0 fixed;
+	bottom: 0;
+	text-align: center;
+	background-color: rgb(243, 125, 14);
+	height: 0 auto;
+
+	align-items: center;
+	font-size: 10;
+	color: rgb(255, 255, 255);
+	/*margin: -0.5rem;*/
+	border-radius: 1em;
+	max-width:100%; 
+}
+.grid{
+	margin-top:10px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	border-radius: 1em;
+	text-align: center;
+	background-color: rgb(243, 125, 14); /*cambiar color para darle relieve al cuadro de productos*/
+	
+}
+.grid2{
+	
+	grid-template-columns: 15% 60% 25%;
+	grid-column-gap: -2.5em;
+	grid-row-gap: -2em;
+	text-align: center;
+	
+}
+.grid3{
+	
+	grid-template-columns: 20% 20% 20% ;
+	grid-column-gap: 1em;
+	grid-row-gap: -2em;
+	text-align: center;
+	
+}
+body {
+	background-color: rgb(255, 136, 0);
+	min-height: 10vh;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: left;
+	justify-content: left;
+	font-size: calc(8px + 1vmin);
+	color: rgb(255, 255, 255);
+	flex-wrap: wrap;
+	margin: 1rem;
+	margin-top: -0.5rem;
+	
+}
+.body {
+	min-height: 5vh;
+	display: flex;
+	margin-top:5vh;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(20px + 1vmin);
+	
+}
+.App-link {
+	color: rgb(33, 78, 7);
+}
+
+
+input {
+	text-align: center;
+	display: flex;
+	width: 20%;
+	padding: 12b 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 2px solid rgb(148, 78, 13);
+	border-radius: 4px;
+}
+
+.buttoncomp {
+	padding: 15px 15px 15px 15px;
+	text-align: center;
+	margin-top:10px;
+	border-radius: 4px;
+	border-color: rgb(7, 2, 2);
+	background-color: rgb(148, 78, 13);
+	color: rgb(7, 2, 2);
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.buttoncomp:hover {
+	background-color: rgb(148, 78, 13);
+	color: white;
+}
+
+.buttondet {
+	padding: 8px 35px 8px 35px;
+	text-align: center;
+	border-radius: 4px;
+	border-color: rgb(7, 2, 2);
+	background-color: rgb(243, 125, 14);
+	color: rgb(7, 2, 2);
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+.buttondeta {
+	padding: 8px 35px 8px 35px;
+	text-align: center;
+	border-radius: 4px;
+	border-color: rgb(7, 2, 2);
+	background-color: rgb(243, 125, 14);
+	color: rgb(7, 2, 2);
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.buttondet2 {
+	padding: 0 auto;
+	text-align: center;
+	border-radius: 4px;
+	border-color: rgb(7, 2, 2);
+	background-color: rgb(243, 125, 14);
+	color: rgb(7, 2, 2);
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.buttondet:hover {
+	background-color: rgb(255, 136, 0);
+	color: white;
+}
+.buttondeta:hover {
+	background-color: rgb(255, 136, 0);
+	color: white;
+}
+.fotoprod {
+	
+	border-style: 1, 4;
+	border-color: rgb(7, 2, 2);
+	height: 50vmin;
+	pointer-events: none;
+}
+/*
+.mensajeCompra{
+	border-radius: 10px;
+	border-style: 1, 4;
+	background-color: #1983e6;
+	color: white;
+	display: grid;
+	align-self: center;
+	font-size: calc(11px + 1vmin);
+	text-align:center;
+}
+*/
+#precio{
+	font-weight: 600;
+	font-size: calc(14px + 2vmin);
+}
+a{
+	color: white;
+}
+.produs{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	height: 25vmin;
+	pointer-events: none;
+	border-radius: 1em;
+}
